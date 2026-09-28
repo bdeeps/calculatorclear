@@ -1,0 +1,126 @@
+{
+  "slug": "calculatorclear",
+  "box": 73,
+  "question": "How does a calculator work?",
+  "url": "https://glassbox-production-fd52.up.railway.app/e/calculatorclear/",
+  "app": "https://glassbox-production-fd52.up.railway.app/calculatorclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "4,000 years from pebbles on a board to a solar-powered chip in every school bag.\n\n190: The Chinese bead abacus\n1617: Napier's bones\n1642: The Pascaline\n1673: Leibniz's stepped drum\n1851: The arithmometer goes on sale\n1887: The Comptometer: press a key to add\n\nThe full story, with 26 moments, sources and charts: glassbox-production-fd52.up.railway.app/e/calculatorclear/history (link in bio)\n\nThen play with how it works: glassbox-production-fd52.up.railway.app/calculatorclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #calculator #logicgates #binary #bcd #adder #transistor #history",
+      "youtube": {
+        "title": "The history of the calculator in 45 seconds #shorts",
+        "description": "4,000 years from pebbles on a board to a solar-powered chip in every school bag.\n\n190 · The Chinese bead abacus (Described by Xu Yue (attributed))\n1617 · Napier's bones (John Napier)\n1642 · The Pascaline (Blaise Pascal)\n1673 · Leibniz's stepped drum (Gottfried Wilhelm Leibniz)\n1851 · The arithmometer goes on sale (Thomas de Colmar)\n1887 · The Comptometer: press a key to add (Dorr E. Felt)\n\n▶ Full history: https://glassbox-production-fd52.up.railway.app/e/calculatorclear/history/\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/calculatorclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does a calculator work?\n\nPress 7 and a chip scans a grid of wires, waits out the bounce and stores 0111. Build the adder from real logic gates, watch the carry ripple, and see why 1 ÷ 3 × 3 can come out as 0.9999999.\n\n→ A pocket calculator: 20 keys, one chip, a display and a solar cell the size of a stamp.\n→ Take it apart: keys on rubber domes, a grid of pads, one chip under black epoxy.\n→ The chip lights one row at a time; a pressed key joins its row to a column.\n→ Logic gates turn 1s and 0s into answers: AND needs both, OR needs either, XOR needs them different.\n→ Inside each gate: transistors as switches. A NOT gate is just two, one to 1 and one to 0.\n\nPlay with it yourself. It's free and open source: glassbox-production-fd52.up.railway.app/calculatorclear (link in bio)\n\nBox No. 073 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #calculator #logicgates #binary #bcd #adder #transistor #cmos #lcd #sevensegmentdisplay",
+    "carousel": "Swipe through: How does a calculator work?\n\nPress 7 and a chip scans a grid of wires, waits out the bounce and stores 0111. Build the adder from real logic gates, watch the carry ripple, and see why 1 ÷ 3 × 3 can come out as 0.9999999.\n\nSave this for later, then play with the interactive version at glassbox-production-fd52.up.railway.app/calculatorclear (link in bio).\n\nBox No. 073 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #calculator #logicgates #binary #bcd #adder #transistor",
+    "youtube": {
+      "title": "How does a calculator work? #shorts",
+      "description": "Press 7 and a chip scans a grid of wires, waits out the bounce and stores 0111. Build the adder from real logic gates, watch the carry ripple, and see why 1 ÷ 3 × 3 can come out as 0.9999999.\n\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/calculatorclear/\n⌘ Source code (MIT): https://github.com/bdeeps/calculatorclear\n\nBox No. 073 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does a calculator work? (interactive explainer)",
+      "description": "Press 7 and a chip scans a grid of wires, waits out the bounce and stores 0111. Build the adder from real logic gates, watch the carry ripple, and see why 1 ÷ 3 × 3 can come out as 0.9999999.\n\n▶ Play with the interactive version: https://glassbox-production-fd52.up.railway.app/e/calculatorclear/\n⌘ Source code (MIT): https://github.com/bdeeps/calculatorclear\n\nIn this video:\n• A handful of parts. Open a pocket calculator and you find rubber keys with carbon pills, a circuit board with a grid of pads, one chip under a blob of black epoxy, an LCD, and a solar cell with a button cell for backup.\n• Keys become bits. The 20 keys sit where 5 row wires cross 4 column wires.\n• Switches that decide. Transistors are switches worked by electricity.\n• Adding is XOR and AND. The sum bit of two bits is XOR and the carry is AND.\n• Seven bars of liquid crystal. A decoder turns each 4-bit digit into 7 segment signals.\n• Microwatts and the last digit. CMOS and LCDs need so little power that a stamp-sized solar cell in room light runs the calculator.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does a calculator work?\n\nPress 7 and a chip scans a grid of wires, waits out the bounce and stores 0111.\n\nPlay with it: https://glassbox-production-fd52.up.railway.app/e/calculatorclear/",
+    "linkedin": "How does a calculator work?\n\nPress 7 and a chip scans a grid of wires, waits out the bounce and stores 0111. Build the adder from real logic gates, watch the carry ripple, and see why 1 ÷ 3 × 3 can come out as 0.9999999.\n\n1. A handful of parts\n2. Keys become bits\n3. Switches that decide\n4. Adding is XOR and AND\n5. Seven bars of liquid crystal\n6. Microwatts and the last digit\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 073 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox-production-fd52.up.railway.app/e/calculatorclear/\nCode: https://github.com/bdeeps/calculatorclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-28T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-28T05:15:50.302Z"
+}

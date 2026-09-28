@@ -1,0 +1,838 @@
+{
+  "title": "The history of the calculator",
+  "tagline": "4,000 years from pebbles on a board to a solar-powered chip in every school bag.",
+  "intro": "For thousands of years people added by moving pebbles and beads between columns, and India gave the world the digits 0 to 9 with zero. Inventors then built gears that carried tens by themselves, and offices filled with cranked and key-driven machines. In the twentieth century switches, tubes and transistors took over, and in 1971 a calculator's brain became the first microprocessor. Today a calculator runs on a scrap of light.",
+  "eras": [
+    {
+      "id": "count",
+      "name": "Counting boards and beads",
+      "from": -2700,
+      "to": 1600,
+      "color": "#c49bff",
+      "summary": "Pebbles on ruled boards, the Chinese bead abacus, and India's place-value digits with zero."
+    },
+    {
+      "id": "gears",
+      "name": "Gears that carry",
+      "from": 1600,
+      "to": 1950,
+      "color": "#ffb547",
+      "summary": "Napier's rods, Pascal's and Leibniz's machines, the arithmometer and the key-driven Comptometer bring calculating into offices."
+    },
+    {
+      "id": "electronic",
+      "name": "Relays, tubes and transistors",
+      "from": 1937,
+      "to": 1967,
+      "color": "#ff7a59",
+      "summary": "Shannon shows switches can do logic. Relays, then vacuum tubes, then transistors replace gears, but calculators still weigh as much as a person."
+    },
+    {
+      "id": "chip",
+      "name": "A calculator on a chip",
+      "from": 1967,
+      "to": 1978,
+      "color": "#5ce1a9",
+      "summary": "Integrated circuits shrink calculators into the hand. A calculator chip becomes the first microprocessor, and LCDs cut power a hundredfold."
+    },
+    {
+      "id": "everyone",
+      "name": "In every pocket and classroom",
+      "from": 1976,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "Solar cells, graphing screens and cheap chips put calculators everywhere, from shops to exam halls."
+    }
+  ],
+  "events": [
+    {
+      "year": -2500,
+      "date": "c. 2700–2300 BCE",
+      "era": "count",
+      "art": "ball",
+      "key": false,
+      "title": "Counting on a board",
+      "who": "Unknown Sumerian scribes (attributed)",
+      "where": "Mesopotamia",
+      "country": "Iraq",
+      "text": "Some historians think the Sumerians of Mesopotamia were the first to reckon on a counting board, moving pebbles between ruled columns. No board survives, so the date is uncertain.",
+      "why": "Moving tokens between columns is the first place-value machine: each column worth more than the one beside it.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": -300,
+      "date": "c. 300 BCE",
+      "era": "count",
+      "art": "block",
+      "key": false,
+      "title": "The Salamis tablet",
+      "who": "Unknown Greek makers",
+      "where": "Salamis, Greece",
+      "country": "Greece",
+      "text": "A marble counting board about 1.5 m long, found on the island of Salamis in 1846, is the oldest counting board known to survive. Pebbles on its ruled lines stood for units, tens, hundreds and more.",
+      "why": "It shows that adding by moving counters between columns was everyday work more than 2,000 years ago.",
+      "sources": [
+        1,
+        0
+      ]
+    },
+    {
+      "year": 190,
+      "date": "c. 190 CE",
+      "era": "count",
+      "art": "ball",
+      "key": true,
+      "title": "The Chinese bead abacus",
+      "who": "Described by Xu Yue (attributed)",
+      "where": "China",
+      "country": "China",
+      "text": "A book credited to Xu Yue is thought to be the earliest written description of the suanpan, the Chinese bead abacus, though scholars debate exactly what it describes. By the Ming dynasty the suanpan, with 2 beads above the bar and 5 below, was used across China, and trained users could add faster than early mechanical calculators.",
+      "why": "A bead frame keeps a number as positions in columns and adds by carrying from one column to the next, just like the adder in this box.",
+      "sources": [
+        2,
+        0
+      ],
+      "box": "adder"
+    },
+    {
+      "year": 628,
+      "date": "628 CE",
+      "era": "count",
+      "art": "word",
+      "key": false,
+      "title": "India writes the rules for zero",
+      "who": "Brahmagupta",
+      "where": "Bhillamala (Bhinmal), Rajasthan",
+      "country": "India",
+      "text": "In his Brāhmasphuṭasiddhānta, Brahmagupta gave rules for adding, subtracting and multiplying with zero and negative numbers. Indian mathematicians worked sums on dust boards (pāṭī) using the place-value digits 0 to 9, and India also knew counting boards, though how widely they were used is debated.",
+      "why": "The decimal place-value system with zero, which travelled from India to the world, is what every calculator displays.",
+      "sources": [
+        3,
+        4,
+        0
+      ]
+    },
+    {
+      "year": 1617,
+      "date": "1617",
+      "era": "gears",
+      "art": "block",
+      "key": true,
+      "title": "Napier's bones",
+      "who": "John Napier",
+      "where": "Edinburgh, Scotland",
+      "country": "United Kingdom",
+      "text": "Napier, the inventor of logarithms, published a set of numbered rods in his book Rabdologiae. Laid side by side, the rods turn multiplication into reading off and adding small numbers along diagonals.",
+      "why": "It broke multiplication into simple additions, the same idea as shift-and-add in a calculator chip.",
+      "sources": [
+        5
+      ],
+      "box": "adder"
+    },
+    {
+      "year": 1623,
+      "date": "1623",
+      "era": "gears",
+      "art": "gear",
+      "key": false,
+      "title": "The calculating clock",
+      "who": "Wilhelm Schickard",
+      "where": "Tübingen, Germany",
+      "country": "Germany",
+      "text": "Schickard described a machine with toothed wheels that added and subtracted, and carried from one wheel to the next, in letters to the astronomer Johannes Kepler. The machine itself was lost; modern copies have been built from his sketches.",
+      "why": "It is the earliest known design of a gear-driven calculator, though it had little influence at the time.",
+      "sources": [
+        6,
+        35
+      ]
+    },
+    {
+      "year": 1642,
+      "date": "1642",
+      "era": "gears",
+      "art": "gear",
+      "key": true,
+      "title": "The Pascaline",
+      "who": "Blaise Pascal",
+      "where": "Rouen, France",
+      "country": "France",
+      "text": "Aged about 19, Pascal built an adding machine to help his father, a tax official, with endless sums. Dials turned toothed wheels, and a clever weighted lever carried a 1 into the next wheel whenever a wheel passed 9. About 20 were made.",
+      "why": "Its automatic carry is the mechanical cousin of the carry that ripples through a binary adder.",
+      "sources": [
+        7,
+        35
+      ],
+      "box": "adder"
+    },
+    {
+      "year": 1673,
+      "date": "1673",
+      "era": "gears",
+      "art": "gear",
+      "key": true,
+      "title": "Leibniz's stepped drum",
+      "who": "Gottfried Wilhelm Leibniz",
+      "where": "London and Hanover",
+      "country": "Germany",
+      "text": "Leibniz showed a model of his stepped reckoner to the Royal Society in London in 1673. Its stepped drum, a cylinder with teeth of different lengths, let a machine multiply by adding over and over. Stepped drums drove calculating machines for the next 300 years.",
+      "why": "Multiplying by repeated, shifted addition is exactly how simple calculator chips multiply.",
+      "sources": [
+        8,
+        35
+      ],
+      "box": "adder"
+    },
+    {
+      "year": 1703,
+      "date": "1703",
+      "era": "gears",
+      "art": "digital",
+      "key": false,
+      "title": "Counting with only 0 and 1",
+      "who": "Gottfried Wilhelm Leibniz",
+      "where": "Paris, France",
+      "country": "Germany",
+      "text": "Leibniz published his explanation of binary arithmetic, showing how any number can be written with only 0 and 1, and how to add and multiply that way.",
+      "why": "Every electronic calculator works in binary, because a switch has just two states.",
+      "sources": [
+        9
+      ],
+      "box": "keys"
+    },
+    {
+      "year": 1851,
+      "date": "1851 (patented 1820)",
+      "era": "gears",
+      "art": "gear",
+      "key": true,
+      "title": "The arithmometer goes on sale",
+      "who": "Thomas de Colmar",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Charles Xavier Thomas de Colmar patented his arithmometer in 1820, and from 1851 it was made and sold in numbers. Based on Leibniz's stepped drums, it was the first mechanical calculator strong and reliable enough for offices, insurers and banks, and was made until about 1915.",
+      "why": "Calculating machines stopped being curiosities and became office equipment.",
+      "sources": [
+        10,
+        35
+      ]
+    },
+    {
+      "year": 1854,
+      "date": "1854",
+      "era": "gears",
+      "art": "word",
+      "key": false,
+      "title": "The laws of thought",
+      "who": "George Boole",
+      "where": "Cork, Ireland",
+      "country": "Ireland",
+      "text": "Boole published The Laws of Thought, an algebra where statements are either true or false and are combined with AND, OR and NOT.",
+      "why": "Boolean algebra is the maths of logic gates.",
+      "sources": [
+        11
+      ],
+      "box": "gates"
+    },
+    {
+      "year": 1887,
+      "date": "1887",
+      "era": "gears",
+      "art": "keys",
+      "key": true,
+      "title": "The Comptometer: press a key to add",
+      "who": "Dorr E. Felt",
+      "where": "Chicago, USA",
+      "country": "USA",
+      "text": "Felt patented the Comptometer, a key-driven adding machine: pressing a key in a column added that digit at once, with no crank to turn. Skilled operators, many of them women, added long columns of figures astonishingly fast, and Comptometers stayed in offices until the 1970s.",
+      "why": "It made calculating a matter of pressing keys, the way we still use calculators today.",
+      "sources": [
+        12,
+        13
+      ]
+    },
+    {
+      "year": 1937,
+      "date": "1937",
+      "era": "electronic",
+      "art": "bolt",
+      "key": false,
+      "title": "Switches can do logic",
+      "who": "Claude Shannon",
+      "where": "MIT, Cambridge, USA",
+      "country": "USA",
+      "text": "In his master's thesis, Shannon showed that circuits of relays and switches can carry out Boole's algebra, and so can add binary numbers. It was published in 1938.",
+      "why": "It is the idea behind every logic gate and adder in a calculator chip.",
+      "sources": [
+        14
+      ],
+      "box": "gates"
+    },
+    {
+      "year": 1948,
+      "date": "1948",
+      "era": "gears",
+      "art": "gear",
+      "key": false,
+      "title": "A calculator in a pepper grinder",
+      "who": "Curt Herzstark",
+      "where": "Liechtenstein",
+      "country": "Austria",
+      "text": "The Curta, a hand-cranked mechanical calculator small enough to hold in one hand, went on sale. Herzstark had worked out its design while a prisoner in the Buchenwald concentration camp.",
+      "why": "It was the best pocket calculator in the world until electronic ones arrived in the early 1970s.",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 1957,
+      "date": "1957",
+      "era": "electronic",
+      "art": "calculator",
+      "key": false,
+      "title": "A calculator made of relays",
+      "who": "Toshio Kashio and his brothers, Casio",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "Casio's first product, the 14-A, used 342 electric relays to add, subtract, multiply and divide 14-digit numbers. It weighed about 140 kg and cost 485,000 yen.",
+      "why": "It showed that calculators could be electric, with no gears, years before the chip.",
+      "sources": [
+        16,
+        17
+      ]
+    },
+    {
+      "year": 1959,
+      "date": "1959",
+      "era": "electronic",
+      "art": "compass",
+      "key": false,
+      "title": "CORDIC: sines from shifts and adds",
+      "who": "Jack E. Volder",
+      "where": "Convair, Fort Worth, USA",
+      "country": "USA",
+      "text": "Volder published CORDIC, a way to find sines, cosines and other functions with nothing but shifts, adds and a small table of angles. It was invented for aircraft navigation computers.",
+      "why": "Scientific calculators, starting with the HP-35, used this kind of shift-and-add method for trigonometry.",
+      "sources": [
+        18
+      ],
+      "box": "precision"
+    },
+    {
+      "year": 1961,
+      "date": "October 1961",
+      "era": "electronic",
+      "art": "calculator",
+      "key": true,
+      "title": "ANITA, the first all-electronic desktop calculator",
+      "who": "Bell Punch Company (Sumlock Comptometer)",
+      "where": "London, UK",
+      "country": "United Kingdom",
+      "text": "The ANITA Mk VII and Mk VIII were shown at the Business Efficiency Exhibition in London in October 1961. They used vacuum tubes and cold-cathode tubes instead of gears, with glowing Nixie tubes for digits. For over two years they were the only electronic desktop calculators in the world.",
+      "why": "Calculating became silent and electronic.",
+      "sources": [
+        19,
+        20
+      ]
+    },
+    {
+      "year": 1964,
+      "date": "1964",
+      "era": "electronic",
+      "art": "calculator",
+      "key": false,
+      "title": "A transistor calculator the price of a car",
+      "who": "Sharp (then Hayakawa Electric)",
+      "where": "Osaka, Japan",
+      "country": "Japan",
+      "text": "Sharp's Compet CS-10A used 530 germanium transistors and 2,300 diodes. It weighed 25 kg and cost 535,000 yen, about as much as a car. The Friden EC-130 of 1963 was another early transistor calculator.",
+      "why": "Transistors replaced tubes, starting the race to make calculators smaller and cheaper.",
+      "sources": [
+        21,
+        37,
+        36
+      ]
+    },
+    {
+      "year": 1967,
+      "date": "1967",
+      "era": "chip",
+      "art": "calculator",
+      "key": true,
+      "title": "Cal Tech: a calculator you could hold",
+      "who": "Jack Kilby, Jerry Merryman and James Van Tassel, Texas Instruments",
+      "where": "Dallas, USA",
+      "country": "USA",
+      "text": "Texas Instruments built a battery-powered prototype, code-named Cal Tech, about 4 × 6 × 2 inches and 45 ounces, with its logic on a few integrated circuits. It printed answers on paper tape. The team applied for a patent in September 1967.",
+      "why": "It proved a whole calculator could be built from chips and held in the hand.",
+      "sources": [
+        22
+      ]
+    },
+    {
+      "year": 1971,
+      "date": "15 November 1971",
+      "era": "chip",
+      "art": "chip",
+      "key": true,
+      "title": "Busicom and the first microprocessor",
+      "who": "Masatoshi Shima (Busicom), Federico Faggin, Ted Hoff and Stan Mazor (Intel)",
+      "where": "Santa Clara, USA and Japan",
+      "country": "USA",
+      "text": "The Japanese company Busicom asked Intel for chips for its 141-PF printing calculator. Intel's team put the calculator's processor on one chip, the 4004, with 2,300 transistors, running at up to 740 kHz. It was announced on 15 November 1971.",
+      "why": "The first commercial microprocessor was made for a calculator, which is why calculators are the stepping stone to computers.",
+      "sources": [
+        23,
+        24
+      ],
+      "box": "gates"
+    },
+    {
+      "year": 1972,
+      "date": "January 1972",
+      "era": "chip",
+      "art": "calculator",
+      "key": true,
+      "title": "The HP-35 puts sin and log in a pocket",
+      "who": "Hewlett-Packard",
+      "where": "Palo Alto, USA",
+      "country": "USA",
+      "text": "The HP-35 was the first handheld scientific calculator, with sine, cosine, tangent, logarithms and powers. It cost $395, weighed about 260 g and used CORDIC-style shift-and-add routines. Slide rules started to disappear.",
+      "why": "It put a scientist's desk calculator in a shirt pocket.",
+      "sources": [
+        25,
+        18
+      ],
+      "box": "precision"
+    },
+    {
+      "year": 1973,
+      "date": "15 May 1973",
+      "era": "chip",
+      "art": "digital",
+      "key": false,
+      "title": "The first LCD calculator",
+      "who": "Sharp",
+      "where": "Osaka, Japan",
+      "country": "Japan",
+      "text": "Sharp's EL-805 was the first product on the market to use a liquid crystal display. Earlier calculators used glowing LEDs or tubes; the LCD cut power to about a hundredth, so the EL-805 ran about 100 hours on one AA battery.",
+      "why": "LCDs made calculators small, cheap and able to run for years on tiny cells.",
+      "sources": [
+        26
+      ],
+      "box": "display"
+    },
+    {
+      "year": 1978,
+      "date": "1978",
+      "era": "everyone",
+      "art": "battery",
+      "key": true,
+      "title": "Calculators that run on light",
+      "who": "Teal Industries; Sharp; Royal",
+      "where": "Japan and USA",
+      "country": "Japan",
+      "text": "Sharp's EL-8026 of 1976 used a solar cell to recharge its batteries. The Teal Photon of 1978 was among the first calculators to run on light alone, but needed bright light. Scientific solar calculators followed in 1982.",
+      "why": "CMOS chips and LCDs had cut power so far that a small solar cell was enough.",
+      "sources": [
+        27,
+        28
+      ],
+      "box": "precision"
+    },
+    {
+      "year": 1985,
+      "date": "1985",
+      "era": "everyone",
+      "art": "pixels",
+      "key": false,
+      "title": "The first graphing calculator",
+      "who": "Casio",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "Casio's fx-7000G could draw graphs of functions on a small dot-matrix screen and run short programs.",
+      "why": "Calculators became small programmable computers.",
+      "sources": [
+        29
+      ]
+    },
+    {
+      "year": 1994,
+      "date": "1994",
+      "era": "everyone",
+      "art": "chip",
+      "key": false,
+      "title": "The Pentium division bug",
+      "who": "Found by Thomas Nicely; Intel",
+      "where": "Lynchburg, USA",
+      "country": "USA",
+      "text": "A maths professor found that Intel's Pentium chip sometimes divided wrongly, from the fifth significant digit on, because a few entries were missing from a lookup table inside the chip. 4,195,835 ÷ 3,145,727 came out as 1.333739… instead of 1.333820… Intel replaced chips and took a $475 million charge.",
+      "why": "Even a tiny error in arithmetic hardware can be very costly, so chips are now checked with mathematical proofs.",
+      "sources": [
+        30
+      ],
+      "box": "precision"
+    },
+    {
+      "year": 2025,
+      "date": "2024–25",
+      "era": "everyone",
+      "art": "calculator",
+      "key": true,
+      "title": "Calculators in India's board exams",
+      "who": "Central Board of Secondary Education (CBSE)",
+      "where": "New Delhi, India",
+      "country": "India",
+      "text": "Indian school board exams have long barred calculators, except for some students with special needs, so generations learned to work sums by hand. In a governing body meeting in December 2024, CBSE decided to allow basic, non-programmable calculators in the Class 12 Accountancy exam from the 2025–26 session, as reported in the press. Rules differ between boards.",
+      "why": "Deciding when a calculator helps learning, and when it gets in the way, is still a live question in classrooms.",
+      "sources": [
+        31,
+        32
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First commercially successful mechanical calculator",
+      "value": "1851",
+      "who": "Thomas de Colmar's arithmometer, France"
+    },
+    {
+      "label": "First all-electronic desktop calculator",
+      "value": "1961",
+      "who": "ANITA Mk VII and Mk VIII, Bell Punch, UK"
+    },
+    {
+      "label": "First handheld electronic calculator prototype",
+      "value": "1967",
+      "who": "Cal Tech, Texas Instruments, USA"
+    },
+    {
+      "label": "First commercial microprocessor, made for a calculator",
+      "value": "1971",
+      "who": "Intel 4004 for the Busicom 141-PF"
+    },
+    {
+      "label": "First handheld scientific calculator",
+      "value": "1972",
+      "who": "HP-35, Hewlett-Packard, USA"
+    },
+    {
+      "label": "First LCD calculator",
+      "value": "1973",
+      "who": "Sharp EL-805, Japan"
+    },
+    {
+      "label": "Among the first to run on light alone",
+      "value": "1978",
+      "who": "Teal Photon"
+    },
+    {
+      "label": "First graphing calculator",
+      "value": "1985",
+      "who": "Casio fx-7000G, Japan"
+    }
+  ],
+  "people": [
+    {
+      "name": "Brahmagupta",
+      "life": "c. 598 – c. 668",
+      "role": "Mathematician and astronomer",
+      "from": "India",
+      "note": "Wrote the first known rules for calculating with zero and negative numbers."
+    },
+    {
+      "name": "Blaise Pascal",
+      "life": "1623 – 1662",
+      "role": "Mathematician and philosopher",
+      "from": "France",
+      "note": "Built an adding machine with an automatic carry while still a teenager."
+    },
+    {
+      "name": "Gottfried Wilhelm Leibniz",
+      "life": "1646 – 1716",
+      "role": "Mathematician and philosopher",
+      "from": "Germany",
+      "note": "Invented the stepped drum and explained binary arithmetic."
+    },
+    {
+      "name": "Dorr E. Felt",
+      "life": "1862 – 1930",
+      "role": "Inventor and businessman",
+      "from": "USA",
+      "note": "Invented the key-driven Comptometer."
+    },
+    {
+      "name": "Claude Shannon",
+      "life": "1916 – 2001",
+      "role": "Mathematician and engineer",
+      "from": "USA",
+      "note": "Showed that switching circuits can do logic and arithmetic."
+    },
+    {
+      "name": "Toshio Kashio",
+      "life": "1925 – 2018",
+      "role": "Inventor, co-founder of Casio",
+      "from": "Japan",
+      "note": "Designed Casio's relay calculator 14-A with his brothers."
+    },
+    {
+      "name": "Jack Kilby",
+      "life": "1923 – 2005",
+      "role": "Engineer, Texas Instruments",
+      "from": "USA",
+      "note": "Co-invented the integrated circuit and led the Cal Tech handheld calculator project."
+    },
+    {
+      "name": "Masatoshi Shima",
+      "life": "born 1943",
+      "role": "Engineer, Busicom and Intel",
+      "from": "Japan",
+      "note": "Worked out the logic of the Busicom calculator chips that became the Intel 4004."
+    },
+    {
+      "name": "Federico Faggin",
+      "life": "born 1941",
+      "role": "Physicist and chip designer, Intel",
+      "from": "Italy",
+      "note": "Led the chip design of the Intel 4004."
+    }
+  ],
+  "series": [
+    {
+      "id": "weight",
+      "title": "How heavy an electric calculator was",
+      "unit": "grams",
+      "log": true,
+      "after": "chip",
+      "caption": "In 15 years electric calculators went from the weight of two people to less than a bar of chocolate.",
+      "points": [
+        {
+          "year": 1957,
+          "value": 140000,
+          "label": "Casio 14-A (relays): about 140 kg"
+        },
+        {
+          "year": 1964,
+          "value": 25000,
+          "label": "Sharp CS-10A (transistors): 25 kg"
+        },
+        {
+          "year": 1967,
+          "value": 1280,
+          "label": "TI Cal Tech prototype (chips): 45 oz, about 1.3 kg"
+        },
+        {
+          "year": 1972,
+          "value": 260,
+          "label": "HP-35 scientific: about 260 g"
+        },
+        {
+          "year": 1972,
+          "value": 71,
+          "label": "Sinclair Executive: 71 g"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "The first commercial microprocessor, the Intel 4004 of 1971, was designed for a Japanese desk calculator, the Busicom 141-PF.",
+    "Casio's first calculator, the 14-A of 1957, used 342 relays and weighed about 140 kg.",
+    "Sharp's CS-10A of 1964 cost 535,000 yen, about as much as a car, and all 300 of the first batch sold out within months.",
+    "An LED calculator like the 1972 Sinclair Executive used about 20 mW; a modern Casio scientific calculator lists 0.0001 W, 200 times less.",
+    "On an 8-digit calculator with no hidden digits, 1 ÷ 3 × 3 gives 0.9999999."
+  ],
+  "sources": [
+    {
+      "title": "Abacus",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abacus"
+    },
+    {
+      "title": "Salamis Tablet",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salamis_Tablet"
+    },
+    {
+      "title": "Suanpan",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suanpan"
+    },
+    {
+      "title": "Brahmagupta",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brahmagupta"
+    },
+    {
+      "title": "Brahmagupta",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Brahmagupta"
+    },
+    {
+      "title": "Napier's bones",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Napier%27s_bones"
+    },
+    {
+      "title": "Wilhelm Schickard",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Schickard"
+    },
+    {
+      "title": "Pascal's calculator",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+    },
+    {
+      "title": "Stepped reckoner",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stepped_reckoner"
+    },
+    {
+      "title": "Explication de l'Arithmétique Binaire (1703)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Explication_de_l%27Arithm%C3%A9tique_Binaire"
+    },
+    {
+      "title": "Arithmometer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arithmometer"
+    },
+    {
+      "title": "George Boole",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/George_Boole"
+    },
+    {
+      "title": "Comptometer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Comptometer"
+    },
+    {
+      "title": "Comptometer",
+      "publisher": "National Museum of American History (Smithsonian)",
+      "url": "https://americanhistory.si.edu/collections/object-groups/key-driven-calculating-machines"
+    },
+    {
+      "title": "A Symbolic Analysis of Relay and Switching Circuits",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits"
+    },
+    {
+      "title": "Curta",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Curta"
+    },
+    {
+      "title": "Casio 14 series",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Casio_14_series"
+    },
+    {
+      "title": "History of Casio's electronic calculator business",
+      "publisher": "Casio",
+      "url": "https://www.casio-intl.com/asia/en/calc/history/"
+    },
+    {
+      "title": "CORDIC",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CORDIC"
+    },
+    {
+      "title": "Sumlock ANITA calculator",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sumlock_ANITA_calculator"
+    },
+    {
+      "title": "Anita: the world's first electronic desktop calculator",
+      "publisher": "Vintage Calculators Web Museum",
+      "url": "http://www.vintagecalculators.com/html/sumlock_anita.html"
+    },
+    {
+      "title": "1964 CS-10A all-transistor calculator",
+      "publisher": "Sharp Corporation",
+      "url": "https://global.sharp/corporate/info/his/only_one/item/t08.html"
+    },
+    {
+      "title": "Handheld Electronic Calculator Prototype, Texas Instruments Cal Tech",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1329686"
+    },
+    {
+      "title": "Intel 4004",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Intel_4004"
+    },
+    {
+      "title": "Announcing a new era of integrated electronics",
+      "publisher": "Intel",
+      "url": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-intel-4004.html"
+    },
+    {
+      "title": "HP-35",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HP-35"
+    },
+    {
+      "title": "World's first LCD calculator EL-805",
+      "publisher": "Sharp Corporation",
+      "url": "https://global.sharp/corporate/info/his/only_one/item/t13.html"
+    },
+    {
+      "title": "Solar-powered calculator",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solar-powered_calculator"
+    },
+    {
+      "title": "Teal Photon",
+      "publisher": "Vintage Calculators Web Museum",
+      "url": "http://www.vintagecalculators.com/html/teal_photon.html"
+    },
+    {
+      "title": "Casio fx-7000G",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Casio_fx-7000G"
+    },
+    {
+      "title": "Pentium FDIV bug",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pentium_FDIV_bug"
+    },
+    {
+      "title": "CBSE mulls allowing non-programmable, basic calculators for Class 12 Accountancy exam",
+      "publisher": "Careers360",
+      "url": "https://news.careers360.com/cbse-mulls-allowing-non-programmable-basic-calculators-for-class-12-accountancy-exam"
+    },
+    {
+      "title": "Is calculator allowed in CBSE board exams?",
+      "publisher": "Careers360",
+      "url": "https://school.careers360.com/articles/cbse-board-exams-2025-calculators-permitted"
+    },
+    {
+      "title": "Sinclair Executive",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sinclair_Executive"
+    },
+    {
+      "title": "fx-82MS / fx-85MS specifications",
+      "publisher": "Casio",
+      "url": "https://support.casio.com/global/en/calc/manual/fx-82MS_85MS_220PLUS_300MS_350MS_en/technical_informatoin/specifications.html"
+    },
+    {
+      "title": "Mechanical calculator",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mechanical_calculator"
+    },
+    {
+      "title": "Friden EC-130",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Friden_EC-130"
+    },
+    {
+      "title": "CS-10A",
+      "publisher": "Information Processing Society of Japan, Computer Museum",
+      "url": "https://museum.ipsj.or.jp/en/heritage/CS-10A.html"
+    }
+  ]
+}
